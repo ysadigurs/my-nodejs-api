@@ -9,7 +9,7 @@ app.get('/zmanim', (req, res) => {
   fetch('/data_zmanim_kavua.json') // Since it's in the public folder, it's accessible at the root
   .then(response => response.json())
   .then(data => {
-      const item =  data.find( record => (record["יום"] === req.query.date));
+      const item =  data.find( record => (record["yom"] === req.query.date));
       res.send(item);
   })
   .catch(error => {
