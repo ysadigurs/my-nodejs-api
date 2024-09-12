@@ -3,16 +3,16 @@
 Test Node.js in vercel site
 
 Git commands:
-git add .
-git commit -m "fixing"
-git push origin main
+- git add .
+- git commit -m "fixing"
+- git push origin main
 
 Vercel deployment:
-vercel --prod 
+- vercel --prod 
 
 Testing:
-node index.js
-https://localhost:3000/zmanim?date=12/09/2024
+- node index.js
+- https://localhost:3000/zmanim?date=12/09/2024
 
 
 Checking:
