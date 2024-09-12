@@ -13,7 +13,8 @@ app.get('/zmanim', (req, res) => {
       res.send(item);
   })
   .catch(error => {
-            console.error('Error fetching the zmanim file', error);
+        res.send("Error fetching the zmanim file" + error);
+        console.error('Error fetching the zmanim file', error);
   });
 })
 
